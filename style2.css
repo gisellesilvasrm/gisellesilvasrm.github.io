@@ -1,0 +1,22 @@
+body{
+   background-color:#18929d;
+}
+p{
+ font-size: 20px;
+ color: #fff;
+}
+.mar1{
+   width: 300px;
+   border: 10px, rgb(red, green, blue), solid;
+   padding: 1mm;
+   right: 500px;
+}
+.mar2{
+   width: 400px;
+   border:30px;
+   left: 100px;
+}
+h1{
+   color: #fff;
+   font-size: 60px;
+}

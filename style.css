@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+ }
+ nav{
+    background-color:#18929d; 
+    padding: 10px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+ }
+ nav .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+ }
+ nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+ }
+ nav li {
+    margin-left: 7px;
+ }
+ nav li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+ }
+ nav li a:hover{
+    background-color: white;
+    color:rgb(0, 0, 0);
+ }
+ .banner{
+    height: 100vh;
+    background: linear-gradient(rgba(8, 8, 8, 0.281),rgba(0,0,0,0.308)),url(img/bacground.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+ }
+.titulo{
+   color:#fff;
+   font-size:70px;
+   width: 400px;
+}
+ .SUB_TITULO{
+    color:#fff;
+    font-size: 40px;
+    width: 400px;
+    
+ }
+ .botoes{
+    margin-top: 30px;
+    animation: vibrar 0.5s;
+ }
+.botoes button{
+    height: 55px;
+    width:170px;
+    border-radius: 5px;
+    border: 0;
+    margin: 0 10px;
+    font-weight:500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s;
+    animation: vibrar 0.5s;
+  
+ }
+ .botoes button.n-overlay{
+    color:white;
+    background:none;
+    border:2px solid white;
+ 
+ }
+ .botoes .saiba-mais:hover{
+    color:black;
+    background-color:#fff;
+ }
+ .menu-icon{
+    display:none;
+    color: white;
+    cursor: pointer;
+ }
+.menu-mobile{
+    background-color: #18929d;
+    position: fixed;
+    width: 100%;
+    height:100%;
+    left: 100%;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+    transition: 0.4s;
+}
+footer{
+   background-color: #18929d;
+
+}
+
+ div{width: 30%;
+     display:inline-block;
+
+ }
+ .left, .main, .rigth{
+   width:100%;
+
+   }
+   
+
+#logo {
+   width: 80px;
+}
+
+.saiba-mais {
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 5px;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 500;
+   transition: 0.3s;
+}
+h3{
+   color: #fff;
+}
+p{
+   color: #fff;
+}
+
+
+
